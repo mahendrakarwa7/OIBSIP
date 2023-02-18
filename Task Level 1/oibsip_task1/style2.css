@@ -1,0 +1,300 @@
+header{
+  height: 780px;
+}
+
+/*----------------------Logo and Navbar----------------*/
+.heading {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(213 202 191);
+  position: fixed;
+  
+}
+
+.logo {
+  cursor: pointer;
+  height: 77px;
+  padding: 0 10px;
+  margin: -30px 740px -30px 10px ;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  background-color: rgb(213 202 191);
+  margin-left: 920px !important;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 1px 20px !important;
+  padding: -80px 0px !important;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #2b0541;
+  font-weight: 900;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  color: #372fc8;
+}
+
+
+/*------------------Text and Image-------------------------------------*/
+.container{
+  padding: 170px 50px !important;
+  display: flex;
+  flex-direction: row;
+  background-color:rgb(254 227 117);
+}
+
+.text-container{
+  width: 50%;
+  padding: 10px;
+}
+
+.text-box h1{
+   font-size: 40px;
+   padding: 22px 25px;
+   margin: 44px 46px;
+   text-align: left;
+   font-weight: 900;
+   color: rgb(118 31 255);
+   font-family: sans-serif;
+}
+
+.text-box p{
+  margin: -90px 90px -90px 60px;
+  padding: 33px 9px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.text-box button{
+  margin: 71px 64px;
+  height: 44px;
+  border: 2px solid rgb(118 31 255);
+  border-radius: 10px;
+  background-color: rgb(254 227 117);
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(118 31 255);
+}
+.image-container{
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+/*-------------Features-------------------*/
+#features{
+  padding-top: 60px;
+  text-align: center;
+  background-color: rgb(254 227 117);
+}
+
+#features h1{
+  font-weight: 900;
+  color: rgb(118 31 255);
+  font-family: sans-serif;
+  padding-top: 20px;
+  font-size: 40px;
+} 
+
+.features{
+  padding: 15px 0;
+  display: flex;
+  flex-direction: row;  
+}
+
+.fe-sec1{
+  width: 50%;
+  padding: 10px;
+}
+
+.fe-sec2{
+  width: 50%;
+  padding: 10px;
+}
+
+.fe-img{
+  height: 500px;
+  width: 732px;
+  margin-left: -49px;
+}
+
+/*--------------PRICING--------------------------------------------*/
+#pricing{
+  padding-top: 60px;
+  text-align: center;
+  background-color: rgb(254 227 117);
+}
+
+#pricing h1{
+  font-weight: 900;
+  color: rgb(118 31 255);
+  font-family: sans-serif;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.pricing{
+  padding: 15px 0 0 0;
+  display: flex;
+  flex-direction: row;  
+}
+
+.price-sec{
+  width: 33.33%;
+  padding: 10px;
+}
+
+.price-sec img{
+  width: 296px;
+  height: 355px;
+}
+.price-sec img{
+  transition: 0.2s all ease-in-out;  
+}
+
+.price-sec:hover img{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.buy{
+  background-color: rgb(213 202 191);
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: 900;
+  font-family: Arial;
+  font-size: 16px;
+  color: rgb(222, 64, 64);
+}
+
+#price-sec h1{
+  font-weight: 800;
+  font-family: sans-serif;
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+.buy:hover{
+  background-color:rgb(118 31 255) ;
+  transform: scale(0.9);
+}
+
+
+/*--------------CONTACT US------------------------------------------------------*/
+
+#contact{
+  padding-top: 20px;
+  text-align: center;
+  background-color: rgb(254 227 117);
+}
+
+#contact h1{
+  font-weight: 900;
+  color: rgb(118 31 255);
+  font-family: sans-serif;
+  padding-top: 20px;
+  font-size: 40px;
+}  
+
+.contact_us{
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0;
+}
+.con-sec1{
+  width: 50%;
+  padding: 10px;
+  margin: -10px auto;    
+}
+.contact-form{
+  width: 50%;
+  padding: 10px;
+}
+
+
+.contact-img{
+  height: 360px;
+  width: 420px;
+  margin-left: -37px;
+}
+
+.con-sec1 h2{
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: rgb(118 31 255);
+  margin: 46px 99px;
+  padding: 0 20px;
+}
+
+.con-sec1 p{
+  text-align: left;
+  font-size: 18px;
+  font-weight: 200;
+  margin: 8px 121px;
+}
+
+.contact-form{
+  width: 400px;
+  margin: 4px auto;
+  background-color:  rgb(254 227 117);
+  padding: 34px 43px;
+  height: 500px;
+  text-align: left;
+  border: rgb(118 31 255) 2px solid;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  width: 420px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+label {
+  font-size: 18px;
+  color: #333;
+}
+
+
+
